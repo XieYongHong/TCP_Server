@@ -1,7 +1,7 @@
 const net = require('net');
 
 const PORT = 8087
-const HOST = 'localhost'
+const HOST = '139.159.146.159'
 
 const clientHandler = socket => {
     socket.on('connection', sk => {
